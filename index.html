@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>Konstruct</title>
+</head>
+
+<body>
+    <!-- Hamburger-->
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#header">Home</a></li>
+            <li><a class="menu__item" href="#main">About</a></li>
+            <li><a class="menu__item" href="#services">Services</a></li>
+            <li><a class="menu__item" href="#get">Work</a></li>
+            <li><a class="menu__item" href="#footer">Contact</a></li>
+        </ul>
+    </div>
+
+    <!--Title-->
+    <div class="wrap">
+        <header>
+            <div id="header">
+                <span class="logo">konstru</span>
+                <div class="triangle"></div><span class="logo">t</span>
+                <h1 class="header__title">Partner with konstruct</h1>
+                <h2 class="header__subtitle">An award-winning construction management firm</h2>
+                <a class="header__link" href="#down">
+                    <p class="header__scroll">Scroll down</p>
+                </a>
+            </div>
+        </header>
+
+        <!-- Navbar -->
+        <nav class="nav">
+            <div class="nav__logo">
+                <span class="logo logo--nav">konstru</span>
+                <div class="triangle triangle--nav"></div><span class="logo logo--nav">t</span>
+            </div>
+            <ul class="nav__list" id="down">
+                <li class="nav__item"><a href="#header" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#main" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#get" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Block our story -->
+        <main id="main">
+            <div class="about">
+                <div class="container">
+                    <h2 class="title">Our story</h2>
+                    <div class="about__content">
+                        <div class="about__text">
+                            <h3 class="about__text-title">Founded in 2011 by John Mathew Smith, <span
+                                    class="about__text-title_word">Konstruct</span> has become the number one
+                                construction management firm</h3>
+                            <p class="about__text-descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem
+                                ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                        <div class="about__images">
+                            <div class="about__image about__image--plan">
+                                <p class="about__images-text">We plan</p>
+                            </div>
+                            <div class="about__image about__image--manage">
+                                <p class="about__images-text">We manage</p>
+                            </div>
+                            <div class="about__image about__image--build">
+                                <p class="about__images-text">We build</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Block Our capabilities-->
+            <div id="services">
+                <div class="container">
+                    <div class="services__header">
+                        <h2 class="title title--services">Our capabilities</h2>
+                        <div class="services__box">
+                            <p class="services__descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                            <button class="button">All services</button>
+                        </div>
+                    </div>
+                    <div class="services__main">
+                        <div class="services__item services__item-management">
+                            <h3 class="services__item-title">Project and construction management</h3>
+                            <p class="services__item-descr">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                        <div class="services__item services__item-audit">
+                            <h3 class="services__item-title">Structure audit and maintenance</h3>
+                            <p class="services__item-descr">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                        <div class="services__item services__item-construction">
+                            <h3 class="services__item-title">Factory construction and modeling</h3>
+                            <p class="services__item-descr">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="get">
+                <div class="container">
+                    <h2 class="get__title">Want to build something amazing?</h2>
+                    <button class="button">Get in touch</button>
+                </div>
+            </div>
+            <div class="newsletter">
+                <div class="container">
+                    <form class="newsletter__form">
+                        <h3 class="newsletter__form-name">Newsletter signup</h3>
+                        <div class="newsletter__input-box">
+                            <input class="newsletter__input" type="email" placeholder="test@youremail.ru">
+                            <input class="button button-newsletter" type="submit" value="Signup">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__company">
+                        <h3 class="footer__company-title">Company</h3>
+                        <span class="logo">konstru</span>
+                        <div class="triangle"></div><span class="logo logo">t</span>
+                        <p class="footer__company-descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                    <div class="footer__links">
+                        <h3 class="footer__links-title">Links</h3>
+                        <ul class="footer__ul">
+                            <li class="footer__li"><a href="#" class="footer__link">Home</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">About</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Services</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Projects</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Faq</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Terms</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Careers</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Contact us</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Blog</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">Partners</a></li>
+                            <li class="footer__li"><a href="#" class="footer__link">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__contact">
+                        <h3 class="footer__contact-title">Contact us</h3>
+                        <address class="footer__address">
+                            <p class="footer__location">213 Baker Street Oriel City Kounty 7000 KNW, Kountry Name
+                            </p>
+                            <p class="footer__number">
+                                <a class="footer__number-link" href="tel:+239942334022">+23 994 233 4022</a>
+                            </p>
+                            <p class="footer__mail">
+                                <a class="footer__mail=link" href="mailto:info@construct.com">info@construct.com</a>
+                            </p>
+                        </address>
+                    </div>
+                    <div class="footer__social">
+                        <ul class="footer__social-ul">
+                            <li class="footer__social-li footer__social-li--facebook"><a href="#"
+                                    class="footer__social-link"></a></li>
+                            <li class="footer__social-li footer__social-li--twitter"><a href="#"
+                                    class="footer__social-link"></a></li>
+                            <li class="footer__social-li footer__social-li--gmail"><a href="#"
+                                    class="footer__social-link"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="underside">
+            <p class="underside_text">&copy;&ensp;2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+        </div>
+    </div>
+</body>
+
+</html>
